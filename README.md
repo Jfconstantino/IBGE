@@ -1,6 +1,6 @@
 # Atualização de estados e municípios com API do IBGE
 
-- Código simples para consultar e atualizar suas tabelas de estado e municípios de uma maneira que você pode colocar em um cron e rodar automaticamente quando desejar para manter seus dados sempre atualizados
+- Código simplificado para consultar e atualizar automaticamente as tabelas de estados e municípios. Ideal para ser integrado em um cron job, permitindo que você mantenha seus dados sempre atualizados de forma eficiente e automática.
 
 ## Tabelas necessárias para funcionamento das funções
 
