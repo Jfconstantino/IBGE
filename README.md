@@ -25,3 +25,13 @@ CREATE TABLE municipios (
   municipios_data_atualiza timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   PRIMARY KEY (municipios_id)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+```
+## Configuração
+
+- Exemplo de comando no seu cron job para automatizar a atualização periódica das tabelas de estados e municípios:
+
+```bash
+0 0 * * * /caminho/para/php /caminho/para/seu/script.php estados
+15 0 * * * /caminho/para/php /caminho/para/seu/script.php municipios
+```
+- Este é apenas um exemplo de configuração; adapte-o conforme a necessidade específica da sua aplicação e suas preferências.
